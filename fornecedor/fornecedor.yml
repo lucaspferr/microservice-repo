@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    username: postgres
+    password: compasso
+    url: jdbc:postgresql://localhost:5432/customerteste1
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
