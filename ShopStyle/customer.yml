@@ -2,7 +2,7 @@ spring:
   datasource:
     username: postgres
     password: compasso
-    url: jdbc:postgresql://localhost:5432/customerteste1
+    url: jdbc:postgresql://localhost:5432/customer
     initialization-mode: always
   jpa:
     hibernate:
