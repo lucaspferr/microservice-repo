@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: postgres
+    password: compasso
+    url: jdbc:postgresql://localhost:5432/checkout
+    initialization-mode: always
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
