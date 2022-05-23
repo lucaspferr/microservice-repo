@@ -1,5 +1,6 @@
 pring:
     data:
         mongodb:
+            database: shop-style-catalog-test
             host: localhost
             port: 27017
